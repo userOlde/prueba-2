@@ -1,8 +1,8 @@
-var conta = 1;
+let conta = 1;
 
 function crearCajas() {
     var elemento = document.createElement("div");
-    var text = document.createTextNode("Hola, soy la caja:" + conta++);
+    var text = document.createTextNode(`Hola soy la caja ${conta} creada por olde`);
 
     elemento.appendChild(text);
 
